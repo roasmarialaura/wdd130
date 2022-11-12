@@ -30,7 +30,7 @@ main section {
     background-color:#fcbf49;
 }
 body {
-    background-color:ffffff; 
+    background-color:white; 
 }
 header {
     background-color:#fcbf49;
@@ -47,7 +47,7 @@ header {
 }
 
 .msg {
-    background-color: ffffff;
+    background-color: white;
 }
 .msg h2 {
     color: #0e34a0;
