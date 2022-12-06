@@ -186,6 +186,58 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
 }
+#faq-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#faq-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+} 
+#faq-hero-img {
+    width: 100%;
+}
+#faq-hero-msg  {
+    text-align: center;
+    color: #fcbf49;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.faq-title {
+    font-family: "Poor Story", Papyrus, Fantasy;
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+.container {
+    width: 90%;
+    margin: 100px auto;
+}
+.title-faq {
+    text-align: center;
+    font-size: 2em;
+    font-family: "Poor Story", Papyrus, Fantasy;
+    margin-bottom: 20px;
+    color: #0e34a0;
+}
+.question-img {   
+   vertical-align: middle;
+}
+.row .item-faq .question {
+    align-items: center;
+    background-color: #fcbf49;
+}
+.row .item-faq .answer {
+    font-size: 1em;
+    font-family: Open Sans, Helvetica, sans-serif;
+    color: #0e34a0;
+}
+
+
+    
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
