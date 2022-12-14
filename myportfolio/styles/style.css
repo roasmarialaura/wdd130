@@ -94,7 +94,7 @@ footer .social img {
 #hero-msg h1 {
     text-align: center;
     color:black;
-    font-family: Patrick Hand;
+    font-family: "Patrick Hand";
 }
 #hero-img {
     width: 100%;
@@ -118,7 +118,7 @@ footer .social img {
 
 .presentation {
     grid-column: 2 / 3;
-    padding: 50px;
+    padding: 15%;
     background-color: white
 }
  .presentation p  {
@@ -144,34 +144,36 @@ footer .social img {
     grid-row: 1 / 2;
     text-align: center;
     color: #1d3557;
+    padding-top: 10%;
     
 }
 .aboutMe {
     grid-column: 1 / 3;
     grid-row: 2 / 4;
     line-height: 1.5em;
-    padding: 35px;
-    
+    padding: 35px
 
 }
 .aboutme p {
     font-size: 2em;
     font-family: Bree, Georgia, serif;
-    color: #1d3557;  
-}
+    color: #1d3557;
+     
+}    
 .subtitle1 {
     grid-column:  3 / 5;
     grid-row: 1 / 2;
 }
 .subtitle {
-    color:#e63946;
-    font-family: Patrick Hand;
+    color: #1d3557;
+    font-family: "Patrick Hand";
     font-size: 2em;
     text-align: center;
     transition: transform .5s;
 }
 .subtitle:hover {
     transform: scale(1.3);
+    color: #e63946;
 }
 .myfoto {
     grid-column: 3 / 5;
@@ -205,9 +207,11 @@ footer .social img {
 .pythonSkill {
     grid-column: 2 / 5;
     grid-row: 5 / 6;
+    padding-right: 10%;
 }
 .pythonSkill p {
     text-align: center;
+    color: #1d3557;
 }
 .contact {
     grid-column: 1 / 5;
@@ -215,3 +219,99 @@ footer .social img {
     margin-left: 50px;
     color: #1d3557;
 }
+/* Main for Projects page*/
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 50px 1fr 1fr;
+
+}
+.project-title {
+    grid-column: 1 / 3;
+    grid-row:  1 / 2;
+    color: #1d3557;
+    font-family: "Patrick Hand", Papyrus, Fantasy;
+    font-size: 3em;
+    padding-left: 20%;
+    
+}    
+.my-project {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    
+
+}
+.my-project img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    width: 50%;
+    padding-left: 20%;
+    
+}
+.button-box {
+    padding-top: 20px;
+    text-align: center;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #457b9d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #c08be9;
+  }
+  
+  .button:hover {background-color: #1d3557;}
+  
+  .button:active {
+    background-color:  #e63946;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+  .description {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    padding-right: 20%;
+    
+  }
+  .description h2 {
+    color: #1d3557;
+    font-family: "Patrick Hand", Papirus, Fantasy;
+  }
+  .description p {
+    color: #457b9d;
+    font-family: Bree, Georgia, Serif;
+  }
+  .work1 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;
+    
+  }
+  .work1 img {
+    width: 40%;
+    padding-left: 30%;
+    padding-bottom: 10%;
+  }
+
+ .experience {
+    grid-column: 2 / 3;
+    grid-row: 5 / 7;
+    padding-right: 20%;
+ } 
+ .experience h2 {
+     color: #1d3557;
+    font-family: "Patrick Hand", Papirus, Fantasy;
+ }
+ .experience p {
+    color: #457b9d;
+    font-family: Bree, Georgia, Serif;
+ }
+ @media screen and (max-width: 900px) {
+    body {
+        font-size: 1vw;
+    }
+ }
